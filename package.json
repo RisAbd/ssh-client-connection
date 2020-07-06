@@ -1,0 +1,19 @@
+{
+  "name": "ssh-client-connection",
+  "version": "1.0.0",
+  "description": "SSH connection terminal in browser",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Abdullah Ibragimov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0",
+    "ssh2": "^0.8.2",
+    "utf8": "^3.0.0",
+    "xterm": "^3.11.0"
+  }
+}
